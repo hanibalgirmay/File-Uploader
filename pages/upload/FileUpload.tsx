@@ -1,7 +1,5 @@
 import React, { useCallback, useState, useEffect } from "react";
 import { FileError, FileRejection, useDropzone } from "react-dropzone";
-import { classicNameResolver } from "typescript";
-import { gray } from "colorette";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
 import FormHelperText from "@material-ui/core/FormHelperText";
@@ -35,7 +33,7 @@ const useStyle = makeStyles({
     alignItems: "center",
     flexDirection: "column",
     gap: "2rem",
-    background: gray,
+    // backgroundColor: '#808',
     border: "1px dashed #000",
     padding: "1rem 2rem",
     transition: ".3s ease-in",
