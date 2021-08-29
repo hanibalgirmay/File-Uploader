@@ -1,0 +1,43 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "description": "File upload to cloudinary system using react nextjs and for design material-ui",
+  "keywords": [
+    "react",
+    "nextjs",
+    "material-ui",
+    "cloudinary",
+    "typescript"
+  ],
+  "author": {
+    "name": "Hanibal Girmay",
+    "email": "",
+    "url": ""
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "dotenv": "^10.0.0",
+    "formik": "^2.2.9",
+    "formik-material-ui": "^4.0.0-alpha.1",
+    "fs": "^0.0.1-security",
+    "next": "^11.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-dropzone": "^11.3.4",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.5",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "typescript": "^4.4.2"
+  }
+}
