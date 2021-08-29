@@ -94,6 +94,10 @@ const FileUpload = ({ name }: { name: string }) => {
     );
   };
 
+  const handleSelect = (e) => {
+    setSelectValue(e.target.value)
+  }
+
   return (
     <React.Fragment>
       {/* <select onChange={(e) => setSelectValue(e.target.value)} value={selectValue} name="formtType" id="">
@@ -110,7 +114,7 @@ const FileUpload = ({ name }: { name: string }) => {
             labelId="demo-simple-select-label"
             id="demo-simple-select"
             value={selectValue}
-            onChange={(e) => setSelectValue(e.target.value)}
+            onChange={handleSelect}
           >
             <MenuItem disabled>select</MenuItem>
             <MenuItem value={"image"}>image</MenuItem>
